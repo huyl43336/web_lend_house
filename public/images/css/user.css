@@ -1,0 +1,74 @@
+body{
+    display: flex;align-items: center;justify-content: center;
+    background-image: url('https://wallpapercave.com/wp/wp2980540.jpg');
+    background-size: cover;
+}
+.user-detail{
+    height: 800px;
+    width: 800px;
+  color: aliceblue;
+    justify-content: center;
+    
+    
+}
+.user-detail .ava{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-left: 45%;
+    margin-bottom: 40px;
+
+}
+img:hover img{
+    font-size: 20px;
+}
+.house {
+     /* Đảm bảo thẻ <a> chiếm toàn bộ chiều rộng của container */
+    height: 50px;
+    width: 780px;
+    margin-top: 20px;
+    top: 40px;
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: inherit; /* Kế thừa màu chữ từ phần tử cha */
+    padding: 10px;
+     /* Thêm padding cho thẻ <a> để tạo khoảng cách với nội dung bên trong */
+}
+
+.house p{
+    display: inline;
+}
+.row{
+    margin-top: 10px;
+    height: 50px;
+    width: 500px;
+}
+label{
+   top: 10px;
+}
+#imgpost{
+    height: 50px;
+    width: 50px;
+
+}
+.jh{
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+p{
+    margin-left: 50px;
+    position: relative;
+    bottom: 20px;
+}
+ul{
+    height: 50px;
+    width: 800px;
+
+    float: left;
+}
+ul li{ 
+    position: relative;
+    list-style-type: none;
+    float: left;
+    margin-left: 30px;
+    width: 50px;
+}
